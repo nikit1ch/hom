@@ -1,4 +1,4 @@
-a = int(input())
+n = int(input("Введите число: "))
 
-for c in range(a):
-    print('*' * (c + 1))
+for i in range(1, n+1):
+    print("*" * i)
