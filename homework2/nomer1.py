@@ -1,10 +1,11 @@
-l = []
+elements = []
 
 while True:
-    a = input()
-    if a == '':
+    user_input = input("Введите элемент: ")
+    
+    if user_input == "":
         break
-    else:
-        l.append(a)
+        
+    elements.append(user_input)
 
-print(l)
+print("Итоговый список:", elements)
